@@ -48,6 +48,9 @@
 #  define __has_include(x) true
 #endif
 
+#if __has_include("epd4c/GxEPD2_154c_GDEM0154F51H.h")
+#include "epd4c/GxEPD2_154c_GDEM0154F51H.h"
+#endif
 #if __has_include("epd4c/GxEPD2_213c_GDEY0213F51.h")
 #include "epd4c/GxEPD2_213c_GDEY0213F51.h"
 #endif
